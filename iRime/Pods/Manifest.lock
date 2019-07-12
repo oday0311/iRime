@@ -27,7 +27,7 @@ PODS:
   - Reachability (3.2)
   - SVProgressHUD (1.1.3)
   - TUSafariActivity (1.0.4)
-  - UIAlertView+Blocks (0.9)
+  - "UIAlertView+Blocks (0.9)"
   - UMengAnalytics (4.1.2)
   - ZipArchive (1.4.0)
 
@@ -40,9 +40,26 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.12)
   - Reachability (~> 3.2)
   - SVProgressHUD (~> 1.1.2)
-  - UIAlertView+Blocks (~> 0.9)
+  - "UIAlertView+Blocks (~> 0.9)"
   - UMengAnalytics (~> 4.1.0)
   - ZipArchive (~> 1.4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFWebViewController
+    - AGEmojiKeyboard
+    - ARChromeActivity
+    - CocoaLumberjack
+    - GCDWebServer
+    - InAppSettingsKit
+    - Masonry
+    - MJRefresh
+    - Reachability
+    - SVProgressHUD
+    - TUSafariActivity
+    - "UIAlertView+Blocks"
+    - UMengAnalytics
+    - ZipArchive
 
 SPEC CHECKSUMS:
   AFWebViewController: 58d2679d4ad060b845da0d8e44f922c3ab28a44a
@@ -56,10 +73,10 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
   TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
-  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+  "UIAlertView+Blocks": a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
   UMengAnalytics: 8d95752776c32f5b954d40edc7f23944882a7c14
   ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
 PODFILE CHECKSUM: 749bdfeb91e7a27acdd4be21ea571a2ca778bfd9
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.3
