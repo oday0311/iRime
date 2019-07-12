@@ -559,7 +559,7 @@
 		0C5E303E1E078FCB0012F008 /* LOCK */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOCK; sourceTree = "<group>"; };
 		0C5E303F1E078FCB0012F008 /* LOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOG; sourceTree = "<group>"; };
 		0C5E30401E078FCB0012F008 /* LOG.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOG.old; sourceTree = "<group>"; };
-		0C5E30411E078FCB0012F008 /* MANIFEST-000009 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MANIFEST-000009"; sourceTree = "<group>"; };
+		0C5E30411E078FCB0012F008 /* MANIFEST-000009 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MANIFEST-000009"; sourceTree = "<group>"; };
 		0C5E30421E078FCB0012F008 /* luna_pinyin_fluency.schema.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luna_pinyin_fluency.schema.yaml; sourceTree = "<group>"; };
 		0C5E30431E078FCB0012F008 /* luna_pinyin_simp.schema.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luna_pinyin_simp.schema.yaml; sourceTree = "<group>"; };
 		0C5E30441E078FCB0012F008 /* luna_pinyin_tw.schema.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luna_pinyin_tw.schema.yaml; sourceTree = "<group>"; };
@@ -594,7 +594,7 @@
 		0C5E30641E078FCB0012F008 /* LOCK */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOCK; sourceTree = "<group>"; };
 		0C5E30651E078FCB0012F008 /* LOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOG; sourceTree = "<group>"; };
 		0C5E30661E078FCB0012F008 /* LOG.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOG.old; sourceTree = "<group>"; };
-		0C5E30671E078FCB0012F008 /* MANIFEST-000065 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MANIFEST-000065"; sourceTree = "<group>"; };
+		0C5E30671E078FCB0012F008 /* MANIFEST-000065 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MANIFEST-000065"; sourceTree = "<group>"; };
 		0C5E30681E078FCB0012F008 /* wubi_pinyin.prism.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = wubi_pinyin.prism.bin; sourceTree = "<group>"; };
 		0C5E30691E078FCB0012F008 /* wubi_pinyin.schema.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wubi_pinyin.schema.yaml; sourceTree = "<group>"; };
 		0C5E306B1E078FCB0012F008 /* cangjie5.prism.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = cangjie5.prism.bin; sourceTree = "<group>"; };
@@ -843,7 +843,7 @@
 		0CF55D881E2F56070028C711 /* LOCK */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOCK; sourceTree = "<group>"; };
 		0CF55D891E2F56070028C711 /* LOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOG; sourceTree = "<group>"; };
 		0CF55D8A1E2F56070028C711 /* LOG.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOG.old; sourceTree = "<group>"; };
-		0CF55D8B1E2F56070028C711 /* MANIFEST-000009 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MANIFEST-000009"; sourceTree = "<group>"; };
+		0CF55D8B1E2F56070028C711 /* MANIFEST-000009 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MANIFEST-000009"; sourceTree = "<group>"; };
 		0CF55D8C1E2F56070028C711 /* luna_pinyin_fluency.schema.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luna_pinyin_fluency.schema.yaml; sourceTree = "<group>"; };
 		0CF55D8D1E2F56070028C711 /* luna_pinyin_simp.schema.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luna_pinyin_simp.schema.yaml; sourceTree = "<group>"; };
 		0CF55D8E1E2F56070028C711 /* luna_pinyin_tw.schema.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luna_pinyin_tw.schema.yaml; sourceTree = "<group>"; };
@@ -878,7 +878,7 @@
 		0CF55DAE1E2F56070028C711 /* LOCK */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOCK; sourceTree = "<group>"; };
 		0CF55DAF1E2F56070028C711 /* LOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOG; sourceTree = "<group>"; };
 		0CF55DB01E2F56070028C711 /* LOG.old */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LOG.old; sourceTree = "<group>"; };
-		0CF55DB11E2F56070028C711 /* MANIFEST-000065 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MANIFEST-000065"; sourceTree = "<group>"; };
+		0CF55DB11E2F56070028C711 /* MANIFEST-000065 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MANIFEST-000065"; sourceTree = "<group>"; };
 		0CF55DB21E2F56070028C711 /* wubi_pinyin.prism.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = wubi_pinyin.prism.bin; sourceTree = "<group>"; };
 		0CF55DB31E2F56070028C711 /* wubi_pinyin.schema.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wubi_pinyin.schema.yaml; sourceTree = "<group>"; };
 		0CF55DB41E2F56070028C711 /* Rime.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Rime.zip; sourceTree = "<group>"; };
@@ -2083,8 +2083,9 @@
 				TargetAttributes = {
 					0CAD83C31D11619200DA88DB = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = XU7TRD55DH;
+						DevelopmentTeam = X7W8LL7Q57;
 						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -2101,8 +2102,9 @@
 					};
 					0CAD842F1D119ABF00DA88DB = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = XU7TRD55DH;
+						DevelopmentTeam = X7W8LL7Q57;
 						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -2116,8 +2118,11 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 0CAD83BB1D11619200DA88DB;
 			productRefGroup = 0CAD83C51D11619200DA88DB /* Products */;
@@ -2877,6 +2882,8 @@
 				CODE_SIGN_ENTITLEMENTS = iRime/iRime.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X7W8LL7Q57;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2908,9 +2915,10 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jimmy54.iRime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancyios.finput;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = fancyinput_dev;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -2926,6 +2934,8 @@
 				CODE_SIGN_ENTITLEMENTS = iRime/iRime.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2957,9 +2967,10 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jimmy54.iRime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancyios.finput;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -3019,6 +3030,8 @@
 				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = X7W8LL7Q57;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3040,13 +3053,14 @@
 					"$(PROJECT_DIR)/LibAndResource/lib",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jimmy54.iRime.Keyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancyios.keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = fancykeyboard_input;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -3059,6 +3073,8 @@
 				CODE_SIGN_ENTITLEMENTS = Keyboard/Keyboard.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -3080,12 +3096,13 @@
 					"$(PROJECT_DIR)/LibAndResource/lib",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jimmy54.iRime.Keyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fancyios.keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = Header.h;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
