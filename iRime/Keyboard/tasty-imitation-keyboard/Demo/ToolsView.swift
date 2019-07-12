@@ -99,7 +99,7 @@ class ToolsView: UIView {
     }
     
     
-    
+    @objc
     func tapToolsItem(_ btn:UIButton) {
         if self.tapToolsItem == nil {
             return;

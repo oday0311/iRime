@@ -135,7 +135,7 @@ class iRNumberBoardLeftKeysView: UIView {
         })
     }
     
-    
+    @objc
     func btnAction(_ btn:iRNumberBoardLeftKeysBtn) -> Void {
         if (self.delegateToCallBack != nil) {
             self.delegateToCallBack?.iRNumberBoardLeftKeysViewPassText((btn.titleLabel?.text)!)

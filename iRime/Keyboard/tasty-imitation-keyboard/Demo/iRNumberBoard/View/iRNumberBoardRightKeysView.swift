@@ -138,15 +138,19 @@ class iRNumberBoardRightKeysView: UIView {
             maker.height.equalTo()(self.mas_height)?.multipliedBy()(1.0/4.0)
         })
     }
-    
+    @objc
     func btnOneStartAction(_ btn:iRNumberBoardRightKeysBtn) -> Void {
         self.timer = Timer.scheduledTimer(timeInterval: timeRepeat, target: self, selector: #selector(iRNumberBoardRightKeysView.repeatBtnOneAction), userInfo: nil, repeats: true)
         self.timer?.fire()
     }
+    
+    @objc
     func btnEndAction(_ btn:iRNumberBoardRightKeysBtn) -> Void {
         self.timer?.invalidate()
         self.timer = nil
     }
+    
+    @objc
     func repeatBtnOneAction() -> Void {
         
         if self.delegateAction != nil {
@@ -154,10 +158,13 @@ class iRNumberBoardRightKeysView: UIView {
         }
         
     }
+    
+    @objc
     func btnTwoStartAction(_ btn:iRNumberBoardRightKeysBtn) -> Void {
         self.timer = Timer.scheduledTimer(timeInterval: timeRepeat, target: self, selector: #selector(iRNumberBoardRightKeysView.repeatBtnTwoAction), userInfo: nil, repeats: true)
         self.timer?.fire()
     }
+    @objc
     func repeatBtnTwoAction() -> Void {
         
         if self.delegateAction != nil {
@@ -170,11 +177,15 @@ class iRNumberBoardRightKeysView: UIView {
 //           self.delegateAction?.passTextOfIRNumberBoardRightKeysView(" ")
 //        }
 //    }
+    
+    @objc
     func btnThreeAction(_ btn:iRNumberBoardRightKeysBtn) -> Void {
         if self.delegateAction != nil {
             self.delegateAction?.passTextOfIRNumberBoardRightKeysView("@")
         }
     }
+    
+    @objc
     func btnFourAction(_ btn:iRNumberBoardRightKeysBtn) -> Void {
         if self.delegateAction != nil {
             self.delegateAction?.passTextOfIRNumberBoardRightKeysView("\n")

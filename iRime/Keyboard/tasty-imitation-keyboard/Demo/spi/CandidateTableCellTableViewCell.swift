@@ -84,7 +84,7 @@ class CandidateTableCellTableViewCell: UITableViewCell {
     class func getCellSizeByText(_ text: String, needAccuracy: Bool) -> CGSize {
         
         func accurateWidth() -> CGFloat {
-            return (text as NSString).boundingRect(with: CGSize(width: CGFloat.infinity, height: getCandidateCellHeight()), options: .usesLineFragmentOrigin, attributes: [NSFontAttributeName: candidateTextFont], context: nil).width + 20
+            return (text as NSString).boundingRect(with: CGSize(width: CGFloat.infinity, height: getCandidateCellHeight()), options: .usesLineFragmentOrigin, attributes: [NSAttributedStringKey.font: candidateTextFont], context: nil).width + 20
         }
         
         var textWidth: CGFloat = 0

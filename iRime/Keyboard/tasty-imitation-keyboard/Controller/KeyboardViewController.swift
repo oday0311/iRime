@@ -129,6 +129,7 @@ class KeyboardViewController: UIInputViewController {
         NotificationCenter.default.removeObserver(self)
     }
     
+    @objc
     func defaultsChanged(_ notification: Notification) {
         //let defaults = notification.object as? NSUserDefaults
         self.updateKeyCaps(self.shiftState.uppercase())
@@ -388,6 +389,7 @@ class KeyboardViewController: UIInputViewController {
         }
     }
     
+    @objc
     func hidePopupCallback() {
         self.keyWithDelayedPopup?.hidePopup()
         self.keyWithDelayedPopup = nil
@@ -423,7 +425,7 @@ class KeyboardViewController: UIInputViewController {
                 attribute:NSLayoutAttribute.notAnAttribute,
                 multiplier:0,
                 constant:height)
-            self.heightConstraint!.priority = 900
+            self.heightConstraint!.priority = UILayoutPriority.defaultHigh //900
             
             self.view.addConstraint(self.heightConstraint!) // TODO: what if view already has constraint added?
         }
@@ -550,12 +552,12 @@ class KeyboardViewController: UIInputViewController {
         
         self.keyPressedHelper(sender)
     }
-    
+    @objc
     func backspaceDelayCallback() {
         self.backspaceDelayTimer = nil
         self.backspaceRepeatTimer = Timer.scheduledTimer(timeInterval: backspaceRepeat, target: self, selector: #selector(KeyboardViewController.backspaceRepeatCallback), userInfo: nil, repeats: true)
     }
-    
+    @objc
     func backspaceRepeatCallback() {
         self.playKeySound()
         

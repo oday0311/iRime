@@ -205,6 +205,7 @@ class iRNumberBoardCentreKeysView: UIView {
         
     }
     
+    @objc
     func btnItemAction(_ btn:UIButton) -> Void {
         if btn.tag == 9 {
             if self.delegateAction != nil {

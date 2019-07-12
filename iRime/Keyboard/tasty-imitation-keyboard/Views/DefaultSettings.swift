@@ -183,6 +183,7 @@ class DefaultSettings: ExtraView, UITableViewDataSource, UITableViewDelegate {
         }
     }
     
+    @objc
     func toggleSetting(_ sender: UISwitch) {
         if let cell = sender.superview as? UITableViewCell {
             if let indexPath = self.tableView?.indexPath(for: cell) {

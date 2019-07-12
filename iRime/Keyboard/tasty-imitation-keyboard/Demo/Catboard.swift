@@ -548,12 +548,13 @@ class Catboard: KeyboardViewController,RimeNotificationDelegate, UICollectionVie
         
     }
     
-    
+    @objc
     func spaceSwipLeft(_ gesture: UISwipeGestureRecognizer) {
         
         print("swip left ...")
     }
     
+    @objc
     func spaceSwipRigth(_ gesture: UISwipeGestureRecognizer) {
         
         print("swip rigth...")
@@ -605,7 +606,7 @@ class Catboard: KeyboardViewController,RimeNotificationDelegate, UICollectionVie
         return candidatesBanner
     }
     
-    
+    @objc
     func openURL(_ url: String) {
         var responder: UIResponder = self
         while responder.next != nil {
